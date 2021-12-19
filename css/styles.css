@@ -1,0 +1,30 @@
+.main {
+    height: 750px;
+    border: 5px solid rgba(255, 255, 255, 0.15);
+}
+
+.icon {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.selected {
+    transform: scale(1.2);
+}
+
+.imgRow {
+    margin-top: 60px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 46, 53);
+}
